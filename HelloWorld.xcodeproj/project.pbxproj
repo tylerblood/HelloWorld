@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F121EA3F2204E42C00B85967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121EA3E2204E42C00B85967 /* AppDelegate.swift */; };
-		F121EA412204E42C00B85967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121EA402204E42C00B85967 /* ViewController.swift */; };
 		F121EA442204E42C00B85967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F121EA422204E42C00B85967 /* Main.storyboard */; };
 		F121EA462204E42D00B85967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F121EA452204E42D00B85967 /* Assets.xcassets */; };
 		F121EA492204E42D00B85967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F121EA472204E42D00B85967 /* LaunchScreen.storyboard */; };
 		F121EA542204E42D00B85967 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121EA532204E42D00B85967 /* HelloWorldTests.swift */; };
 		F121EA5F2204E42D00B85967 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121EA5E2204E42D00B85967 /* HelloWorldUITests.swift */; };
+		F121EA6D2204F03600B85967 /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F121EA6C2204F03600B85967 /* HelloWorldViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		F121EA3B2204E42C00B85967 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F121EA3E2204E42C00B85967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F121EA402204E42C00B85967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F121EA432204E42C00B85967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F121EA452204E42D00B85967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F121EA482204E42D00B85967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		F121EA5A2204E42D00B85967 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F121EA5E2204E42D00B85967 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		F121EA602204E42D00B85967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F121EA6C2204F03600B85967 /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				F121EA3E2204E42C00B85967 /* AppDelegate.swift */,
-				F121EA402204E42C00B85967 /* ViewController.swift */,
 				F121EA422204E42C00B85967 /* Main.storyboard */,
+				F121EA6C2204F03600B85967 /* HelloWorldViewController.swift */,
 				F121EA452204E42D00B85967 /* Assets.xcassets */,
 				F121EA472204E42D00B85967 /* LaunchScreen.storyboard */,
 				F121EA4A2204E42D00B85967 /* Info.plist */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F121EA412204E42C00B85967 /* ViewController.swift in Sources */,
+				F121EA6D2204F03600B85967 /* HelloWorldViewController.swift in Sources */,
 				F121EA3F2204E42C00B85967 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
